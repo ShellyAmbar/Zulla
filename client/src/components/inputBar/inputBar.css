@@ -1,0 +1,27 @@
+.inputBarContainer{
+    margin-top: 2px;
+    display: flex;
+    box-shadow: 0 0 5px #9ecaed;
+    border-radius: 8px;
+    height: 15%;
+}
+
+.inputContainer{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em
+}
+.inputContainer:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+.iconButtonStyle{
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    
+    width: 13%;
+}

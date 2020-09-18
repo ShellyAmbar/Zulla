@@ -1,0 +1,22 @@
+.buttonMenu{
+
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px lightgreen;
+    border-color: navajowhite;
+    border-width: 1px;
+    color: blue;
+    text-align: center;
+}
+
+.circle{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px lightgreen;
+    border-color: navajowhite;
+    border-width: 1px;
+    color: oldlace;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.PageContainer{
+height: 100vh;
+width: 100%;
+align-content: center;
+background-color: #060c21;
+justify-content: center;
+align-items: center;
+
+
+}
+.chatRoomPageContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    background-color: #060c21;
+    
+  }
+  
+ 
+
+  .openCamera{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .openCameraButton{
+    
+    border-radius: 10px;
+    box-shadow:0 0 60px blueviolet;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+  }
+

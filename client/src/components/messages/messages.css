@@ -1,0 +1,43 @@
+.messagesContainer, .scrollerStyle {
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: auto;
+  
+ 
+}
+
+.scrollerStyle {
+  scrollbar-3dlight-color: #4fbddd;
+  scrollbar-arrow-color: #eee1ae;
+  scrollbar-darkshadow-color: #000000;
+  scrollbar-face-color: #a0cce0;
+  scrollbar-highlight-color: #f8f2dc;
+  scrollbar-shadow-color: #176f99;
+  scrollbar-track-color: #e7f2fa;
+  scrollbar-color:#4fbddd;
+}
+
+.followButton{
+  border-radius: 10px;
+  border-color: rgb(158, 58, 58);
+  box-shadow: initial 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: khaki;
+}
+
+.scrollBar::-webkit-scrollbar {
+  width: 8px;
+  background-color: violet;
+}
+.scrollbatThumb::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border-color: rgb(158, 58, 58);
+  box-shadow: initial 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.scrollbarTrack::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border-color: rgb(247, 240, 240);
+  box-shadow: initial 0 0 6px rgba(0, 0, 0, 0.3);
+}

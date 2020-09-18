@@ -1,0 +1,12 @@
+.chatContainer {
+   padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 60px #9ecaed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 8px;
+    
+  }

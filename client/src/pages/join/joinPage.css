@@ -1,0 +1,80 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  #root {
+    height: 100vh;
+  }
+  
+ 
+.joinContainer{
+  background-color: #060c21;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+}
+.joinInnerContainer{
+
+    
+    box-shadow: 0 0 50px #9ecaed;
+   
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    width: 20%;
+    padding-left:30px ;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+   
+}
+
+.joinHeading{
+    color: white;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.joinInput{
+    margin-top: 10px;
+    width: 90%;
+    font-size:18px;
+    padding:5px;
+    border: 2px ;
+    border-radius: 7px;
+    box-shadow: 0 0 20px #b3dbfc;
+        
+}
+.joinInput :focus{
+    outline: 0;
+    color: white;
+    box-shadow: 0 0 100px #b3dbfc;
+}
+.joinInput :hover{
+    outline: 0;
+    color: white;
+    box-shadow: 0 0 100px #b3dbfc;
+}
+.joinButton{
+    margin-top: 60px;
+    box-shadow: 0 0 50px #b3dbfc;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 5px white;
+    width: 100%;
+}
+.joinButton:hover{
+    box-shadow: 0 0 100px #b3dbfc;
+    color: white;
+     outline: 0;
+ 
+}
